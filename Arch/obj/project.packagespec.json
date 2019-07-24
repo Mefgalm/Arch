@@ -1,0 +1,49 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/home/user/Documents/FSharp/Arch/Arch/Arch.fsproj",
+    "projectName": "Arch",
+    "projectPath": "/home/user/Documents/FSharp/Arch/Arch/Arch.fsproj",
+    "outputPath": "/home/user/Documents/FSharp/Arch/Arch/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.2"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp2.2": {
+        "projectReferences": {}
+      }
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.2": {
+      "dependencies": {
+        "Akka.FSharp": {
+          "target": "Package",
+          "version": "[1.3.13, )"
+        },
+        "FSharp.Core": {
+          "target": "Package",
+          "version": "[4.6.2, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0, )",
+          "autoReferenced": true
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}
